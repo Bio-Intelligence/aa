@@ -1,19 +1,112 @@
 <html>
 	<head>
-		<title>Biography P1</title>
+		<title>Bio-Intelligence: AE</title>
+		<link rel="icon" type="image" href="favicon.ico">
 	<body>
-	<h1 style="font-family: Monospace, sans-serif;">Albert Einstein Biography</h1>
-	<h2>His Achievements</h2>
-	<p>In 1905, often referred to as his <b>"miracle year,"</b> Einstein published four groundbreaking papers that revolutionized physics. 
-	These included his theories on the photoelectric effect, Brownian motion, and special relativity, which introduced the famous 
-	equation E=mc², establishing the equivalence of mass and energy. He received the Nobel Prize in Physics in 1921 for his explanation of the photoelectric effect. </p>
-	<h2>Information Pages:</h2>
-	<nav>
-      <a href="/alberteinstein/">Home</a>
-      <a href="./b1.html">Early Life</a>
-      <a href="./b3.html">Later Life</a>
-	</nav>
+		<style>
+	body {
+	background-image:url('nobel.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+	}
+	
+	article {
+	border-radius:30px 30px 30px 30px;
+	float: right;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 20px;
+	width: 55%;
+	background-color: navy;
+	height: 500px;
+	}
+	
+	
+	footer {
+	position: fixed;
+	left: 505;
+	bottom: 0;
+	width: 55%;
+	height: 80px;
+	border-radius:15px 0px 0px 0px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	background-color: lightblue;
+	padding: 20px;
+	text-align: center-right;
+	color: navy;
+	}
+
+	.dropbtn {
+	position:fixed;
+	left: 0;
+	top:0;
+	background-color: gold;
+	color: white;
+	padding: 16px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	font-size: 16px;
+	border: none;
+	border-radius: 15px 15px 15px 15px;
+	}
+
+	.dropdown {
+	position: relative;
+	display: inline-block;
+	}
+
+	.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: navy;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	border-radius: 15px 15px 15px 15px;
+	position:fixed;
+	left: 0;
+	top:50;
+	}
+
+	.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	display: block;
+	border-radius: 15px 15px 15px 15px;
+	}
+
+	.dropdown-content a:hover {background-color: gold;}
+	.dropdown:hover .dropdown-content {display: block;}
+	.dropdown:hover .dropbtn {background-color: blue;}
+	
+	</style>
+	<h1 style="color:black; font-family: Monospace, sans-serif; font-size: 300%; text-align: right;">Albert Einstein Biographpy</h1>
+	<footer>
+		<h3><b>This Website was Created by <i>Thomas Etherington</i> on behalf of <i>Bio-Intelligence</i><b></h3>
+		<h6><b>DISCLAIMER:</b>THE INFO ON THIS WEBSITE <i>WAS NOT</i> HAND-WRITTEN. <b>THE WEBSITE ITSELF WAS.</b></h6>
+	</footer>
+	<article>
+		<h1 style="font-family: Agrandir, sans-serif; color:gold;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);"><b>His Achievements<b></h1>
+		<p style="color:gold; font-family: League Spartan, sans-serif; font-size: 100%;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);"><i>Albert Einstein</i>'s work fundamentally transformed physics, primarily
+		through the theories introduced in his "miracle year" of 1905. That 
+		year, he published four pivital papers, including his explanation of
+		<b>photoelectric effect</b>-which established that light travels as 
+		energy packets called photons and earned him the 1921 Nobel Prize-
+		and the <b>Special Theory of Relativity</b>, which connected space 
+		and time and yielded the famous equation, <b>E=mc²</b>. A decade
+		later, he completed his most significant achievement, the <b>General
+		Theory of Relativity</b>(1915), which redefined gravity as the curvature
+		of space-time caused by mass. Together, these theories provided the 
+		concept for nearly all modern cosmology and quantum mechanics.</p>
+		<h1 style="font-family: Agrandir, sans-serif; color:white" text-align="bottom">Bio-Intelligence Biographies™</h1>
+	</article>
+	<div class="dropdown">
+	<button style="font-family: Agrandir, sans-serif; color:navy;" class="dropbtn"><b><i>Information Pages:</i></b></button>
+	<div class="dropdown-content">
+		<a style="font-family: Agrandir, sans-serif; color:white; font-size:150%; padding-left: 10px;" href="/alberteinstein/">Home</a>
+		<a style="font-family: Agrandir, sans-serif; color:white; font-size:150%;padding-left: 10px;" href="./b2.html">His Achievements</a>
+		<a style="font-family: Agrandir, sans-serif; color:white; font-size:150%; padding-left: 10px;" href="./b3.html">Later Life</a>
+	</div>
+	</div>
 	</body>
-
 </html>
-
